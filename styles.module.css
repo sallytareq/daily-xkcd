@@ -32,4 +32,27 @@
 .footer{
   color:whitesmoke;
   background-color:black;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 0;
+}
+
+.footer ul li{
+  list-style: none;
+}
+.footer ul li a{
+  list-style: none;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footer ul li:hover{
+  color: blanchedalmond;
+  text-decoration: underline;
 }
