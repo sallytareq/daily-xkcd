@@ -1,12 +1,14 @@
 import styles from '../styles.module.css'
 import Footer from '../components/Footer'
 import MyLayout from '../components/MyLayout'
-export default function Home(props, props1) {
+
+export default function Home(props) {
   return (
     <MyLayout>
       <h2>XKCD API Comics</h2>
-      <img src={props.comics.img} width="100%" />
-      <p>Comic: {props.comics.safe_title}</p>
+      <br></br>
+      <p>Comic Name: {props.comics.safe_title}</p>
+      <img src={props.comics.img} width="50%" />
       <Footer comics={props.comics.num} />
     </MyLayout>
   )
