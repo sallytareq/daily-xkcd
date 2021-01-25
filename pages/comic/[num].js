@@ -2,7 +2,7 @@ import MyLayout from '../../components/MyLayout'
 export default function Details(props) {
     return (
         <MyLayout>
-            <img src={props.comics.img} width="100%" />
+            <img src={props.comics.img} width="50%" />
             <p>Comic: {props.comics.safe_title}</p>
         </MyLayout>
     )
