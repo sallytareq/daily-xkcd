@@ -6,8 +6,10 @@ export default props => (
         <Header />
         {props.children}
         <style jsx>{`
+            margin: -9px;
+            padding: -10px;
             color: blue;
-            padding: 100px;
+            width: 101.1%;
             text-align: center;
         `}</style>
     </div>

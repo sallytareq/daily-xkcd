@@ -2,9 +2,8 @@
   font: 15px Helvetica, Arial, sans-serif;
   background: #eee;
   text-align: center;
-}
-.hello:hover {
-  background: #ccc;
+  padding: 0;
+  margin: -10x;
 }
 
 .header{
